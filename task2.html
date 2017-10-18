@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My CSS personal page</title>
+	    <meta name="description" content="This is Haitham Alsharif&#39;s information page">
+		<meta name="keywords" content="Haitham,Alsharif,Personal,page,kfupm,haitham information,">
+		<meta name="robots" content="all">
+		
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	
+	<body>
+		<div id="stickyText" class="sticky"> I am Haitham Alsharif... Welcome to my profile ! </div> 
+			<header>
+				<h1 class="roundedCorners"> 
+				Haitham's Page
+				</h1>
+			</header>
+			
+			<!--   ..........................  -->
+			<div class="whiteBackgroundPortion">
+			
+			<img src="./task2_files/myPicture.jpg" alt="The personal picture is not available" height="350" width="360" style="padding:20px;">
+			
+			<img src="./task2_files/welocome.png" alt="The welcome picture is not available" height="380" width="90" style="padding:0px; margin-top:10px" align="right">
+			
+			</div>
+			<hr>
+			
+			<!--   ..........................  -->
+			
+			<svg width="150" height="150" > <!-- This is the SVG circle with text -->
+			<g>
+				<circle cx="60" cy="60" r="50" stroke="#2b6f83" stroke-width="4" fill="#cc6969"></circle>
+				<text x="12" y="65" font-family="Verdana" font-size="20" fill="white">Shortcuts</text> 
+			</g>	
+ 			</svg>
+			<div align="center">
+			
+				<a href="#personalInformation"> Personal Information </a> |
+				<a href="#CurrentCourses"> My Current Courses  </a> |
+				<a href="#Interests"> My Interests </a> |
+				<a href="#Survey"> Rate this page (Survey) </a> |
+				<a href="#contact"> Contact me </a>
+			
+			</div>
+			<hr>
+			
+			<!--   ..........................  -->
+			<a id="personalInformation">
+			<div class="whiteBackgroundPortion">
+					<fieldset>
+						<legend style="font-size:26px"><strong> Personal Information</strong> </legend>
+						<ul>
+							<li><p><b>Full name:</b> Haitham Yahya Alsharif</p></li>
+							<li><p><b>ID number:</b> 201436820</p></li>
+							<li><p><b>Age:</b> 21 years old</p></li>
+							<li><p><b>Born in:</b> Abha</p></li>
+							<li><p><b>Academic level:</b> Junior in <i> King Fahd University of Petroleum and Minerals</i></p></li>
+							<li><p><b>Major:</b> Software Engineering (SWE) , previously <del>Computer Engineering (COE)</del></p></li>
+						</ul>	
+					</fieldset>
+			</div>
+			</a>
+				<hr>
+			<!--   ..........................  -->
+			
+			<a id="CurrentCourses">
+			<div class="whiteBackgroundPortion">
+					<fieldset>
+						<legend style="font-size:26px"><strong> Courses that I am taking this semester:</strong> </legend>
+						<ol>
+							<li><p><b>ENGL 214:</b> Academic &amp; Professional Communication</p></li>
+							<li><p><b>ICS 324:</b> Database Systems</p></li>
+							<li><p><b>SWE 312:</b> User-Interface Design</p></li>
+							<li><p><b>SWE 316:</b> Software Design &amp; Architecture</p></li>
+							<li><p><b>SWE 363:</b> Web Engineering &amp; Development</p></li>
+						</ol>	
+					</fieldset>
+			</div>
+			</a>
+			<hr>
+			<!--   ..........................  -->
+			<div class="whiteBackgroundPortion" align="center">
+			<h3>
+			What I like and dislike about this semester
+			</h3>
+			<p id="para" >
+			
+				<img src="./task2_files/kfupm.gif" alt="Picture does not exist" id="floatingImage"  width="200" height="200" />	
+				I am going to seperate them into two parts: <br>
+				<b>Likes:</b><br> The fact that I am learning so many things at one time and making use of 
+				my time at this young age.<br> I also like that I am getting my hands on some real projects like the one in this course and 
+				real valuable knowledgs that will benefit me in my future career.<br> I am also enjoying the courses that I have especially
+				on this semester because most of them are involved more in my major.
+				<br><b>Dislikes: </b><br> I do not have enough time to do any other activities such as sports or gaming as much as I want to.<br>
+				I also dislike the idea of having 5 projects in one semester because it is my first time trying something like this and it is nerve racking.<br>
+				I also do not enjoy the hot weather and the need to go from class to class under it is exhausting and unhealthy.	
+						
+			</p>
+			</div>
+			<hr>
+			<!--   ..........................  -->
+			<div>
+			<a id="Interests">
+				<table id="mytable" border="5px" align="center" >
+					<tbody><tr>
+						<td colspan="2"><p style="font-size:30px; margin:0px; text-shadow: -4px 4px 6px black; " align="center">My interests</p></td>
+					</tr>
+					<tr>
+						<td><p style="font-size: 17"><b> Gaming <b> </p></td>
+						<td><p> Because it's a great entertaining way to pass the time and communicate with people around the world. </p></td>
+					</tr>
+					
+					<tr>
+						<td><p style="font-size: 17"><b> Reading/audiobooks </b></p></td>
+						<td><p> An educated person should always carry a book with him/her. It will always expand thier brain. </p></td>
+					</tr>
+					<tr>
+					
+						<td><p style="font-size: 17"> <b>Jogging</b> </p></td>
+						<td><p> I usually combine jogging with audiobooks, we as students who always sit in front of a computer for hours should have some kind of exercise and the least is to jog. </p></td>
+					</tr>
+				</tbody></table>
+			</a>
+			</div>
+			<hr>
+
+			<!--   ..........................  -->
+			<a id="Survey"></a>
+			<div class="whiteBackgroundPortion"> 
+					<h2 align="center" style="font-size: 23px">Before you leave, please answer this survey ! </h2>
+					<details>
+						<summary style="font-size:20px"><b> Why should I fill this survey? </b></summary>
+						<p style="color:red; font-size:20px">Considering that this is my first time using HTML, this survey is a way for me to know if I am going in the right direction and where should I improve. Thank you.</p>
+					</details>
+			</div>
+			
+			<!--   ..........................  -->
+			
+			<div> <!-- this is for the whole survey -->
+					<h2 align="center" style="font-size: 23px;color:black"> The Survey </h2> 
+					<p><strong>Please enter your information and answer the following questions:</strong></p>
+					<p>
+						<label>Full name:</label> 
+						<input type="text" name="name">
+					
+						<label>Email Address:</label> 
+						<input type="email" name="email" placeholder="sxxxxxxxxx@kfupm.edu.sa" required="">
+					
+						<label > Academic level:</label>
+				
+						<select name="level">
+							<option>Select level</option>
+							<option value="orientation">Orientation</option>
+							<option value="freshmen">Freshmen</option>
+							<option value="sophomore">Sophomore</option>
+							<option value="junior">Junior</option>
+							<option value="senior">Senior</option>
+							<option value="graduate">Graduate</option>
+						</select>
+					
+						<label>Birth Date:</label> 
+						<input id="date" type="date">
+					</p>
+				
+				<hr>
+				
+				<p>
+				</p><p><b> Q1: In your opinion, what is the best way to implement websites: </b></p> <br>
+					<input type="radio" name="myradio" value="html"> HTML
+					<input type="radio" name="myradio" value="css"> CSS
+					<input type="radio" name="myradio" value="other">Other
+					<input type="text"> 
+				
+				<p></p>
+				
+				<p>
+					<label><b> Please provide your reasoning: </b></label> <br>
+					<textarea rows="5" cols="30"></textarea> 
+				</p>
+				
+				<hr>
+				
+				<p>
+					</p><p> <b>Q2: Check the box next to the broswer(s) you use:</b> </p>
+					<input type="checkbox" name="mycheckbox" value="internet explorer"> Internet Explorer<br>
+					<input type="checkbox" name="mycheckbox" value="Google Chrome"> Google Chrome<br>
+					<input type="checkbox" name="mycheckbox" value="Firefox"> Mozilla Firefox<br>
+					<input type="checkbox" name="mycheckbox" value="Obera"> Obera<br>
+					<input type="checkbox" name="mycheckbox" value="Safari"> Safari<br>
+				<p></p>
+				
+				<p>
+					<label><b> Why? </b></label> <br>
+					<textarea rows="5" cols="30"></textarea> 
+				</p>
+				<hr>
+				<p> <b>Q3: Use the slider to rate this web page from 0 to 10 (Right means more satisfied):</b> </p>
+					<p>
+					<label> Silder: </label>
+					<input type="range" min="0" max="10" value="0">
+					</p>
+				<hr>
+				<div align="center">
+					<p>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">	
+					</p>
+				</div>
+			</div>
+			<hr>
+			<!--......................-->
+			<div  class="whiteBackgroundPortion roundedCorners">
+			<a id="contact">
+				<h2 align="center" > Contact me</h2>
+				</a>
+				<div align="center">
+					<a href="mailto:s201436820@kfupm.edu.sa">
+					<img src="./task2_files/email.png" alt="Does not exist" height="30" width="30">
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=100014509263324">
+					<img src="./task2_files/facebook.png" alt="Does not exist" height="30" width="30">
+					</a>
+					<a href="https://www.youtube.com/channel/UC2oJ-5w4zRwsUjyDdnJdWfg?view_as=subscriber">
+					<img src="./task2_files/youtube.png" alt="Does not exist" height="30" width="30">
+					</a>
+					<a href="https://www.instagram.com/haithamsface/?hl=en">
+					<img src="./task2_files/instagram.jpg" alt="Does not exist" height="30" width="30">
+					</a>
+				</div>
+			</div>	
+				
+			<hr>
+				
+			<!--......................-->
+			<footer >
+				
+					<p><b> Progress of my satisfaction of this page: (I update this to show if I am happy with my work ) </b></p> 
+					<label> My progress: </label> <progress value="85" max="100"> </progress> 
+				
+				<br>
+					<h1 class="roundedCorners">  Thank you for your visit ! </h1>
+					<p align="right"><a href="https://drive.google.com/file/d/0B1WrU8vaBFHUYnNqWlp1MFVEX0k/view?usp=sharing"> Check CSS validation </a></p>					
+			</footer>
+	
+			
+				
+		
+</body>
+
+</html>
