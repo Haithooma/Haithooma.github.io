@@ -1,0 +1,40 @@
+h1{
+			text-align: center;
+			color:white;
+			font-size: 50px;
+			padding: 30px;
+			background-color: #000066;
+			border: 5px solid white;
+			border-radius: 30px 30px 30px 30px;
+			margin: 0px;
+			border
+		}
+
+		body{
+			background-color: #99bbff;
+		
+		}
+
+		p{
+			font-size: 20px;
+		}
+
+		#logo{
+			width: 30px;
+			height: 30px;
+		}
+
+		.centeredLink{
+			text-align: center;
+			font-size: 25px;
+		}
+
+		.MyLegend{
+			font-size: 25px;
+		}
+		
+		.myFieldset{
+			margin: 20px; 
+			margin-left:10px; 
+			margin-right:10px
+		}
