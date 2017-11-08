@@ -23,3 +23,18 @@ h1{
 			width: 30px;
 			height: 30px;
 		}
+
+		.centeredLink{
+			text-align: center;
+			font-size: 25px;
+		}
+
+		.MyLegend{
+			font-size: 25px;
+		}
+		
+		.myFieldset{
+			margin: 20px; 
+			margin-left:10px; 
+			margin-right:10px
+		}
